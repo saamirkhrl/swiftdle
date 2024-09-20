@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap");
+
+body {
+  margin: 0;
+  font-family: "The Girl Next Door", sans-serif;
+  background-color: #ffeef8;
+  color: #333;
+}
+
+div {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: transparent;
+  text-align: center;
+}
+
+input {
+  width: calc(100% - 120px);
+  padding: 10px;
+  border: 2px solid #d5006d;
+  border-radius: 4px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: inline-flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #d5006d;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff69b4;
+}
+
+.result {
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-3xl {
+  font-size: 1.875em;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.quote {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.input-container input {
+  margin-right: 10px; /* Space between input and button */
+}
+
+.result {
+  margin-left: 10px; /* Space between button and result */
+  font-weight: bold; /* Make result bold */
+}

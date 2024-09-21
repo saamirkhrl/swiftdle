@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Analytics } from "@vercel/analytics/react";
 function Result(props) {
   const [answerShown, setAnswerShown] = useState(false);
 

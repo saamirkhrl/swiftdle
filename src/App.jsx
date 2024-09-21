@@ -3,7 +3,7 @@ import React from "react";
 import Quote from "./components/Quote";
 import UserInput from "./components/UserInput";
 import "./index.css";
-
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   const [lyric, setLyric] = useState("");
   const [song, setSong] = useState("");

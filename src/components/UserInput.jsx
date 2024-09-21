@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Result from "./Result";
-
+import { Analytics } from "@vercel/analytics/react";
 function UserInput(props) {
   const [input, setInput] = useState("");
   const [result, setResult] = useState("def");

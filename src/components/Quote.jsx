@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 function Quote(props) {
   console.log("Quote received:", props.lyrics);
 

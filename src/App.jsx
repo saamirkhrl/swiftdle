@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Analytics } from '@vercel/analytics/react';
 import React from "react";
 import Quote from "./components/Quote";
 import UserInput from "./components/UserInput";
@@ -36,6 +37,7 @@ function App() {
       <h1 className="title">Swiftdle - A Taylor Swift lyrics guesing game</h1>
       <Quote lyrics={lyric} />
       <UserInput song={song} album={album} />
+      <Analytics />
     </div>
   );
 }

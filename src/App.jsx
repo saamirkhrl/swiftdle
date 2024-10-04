@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Analytics } from '@vercel/analytics/react';
 import React from "react";
 import Quote from "./components/Quote";
 import UserInput from "./components/UserInput";
